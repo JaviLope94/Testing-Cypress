@@ -1,3 +1,5 @@
+// Extension cypress Cypress Scenario Recorder
+
 describe('Mis primeros test', () => { // Mocha
 
     // it('Conocimiento la sintaxis', () => { // Mocha
@@ -46,7 +48,7 @@ describe('Mis primeros test', () => { // Mocha
     //     cy.contains('Tecnología').click()
 
     //     // Ejemplo mala sintaxis
-    //     cy.url().should('https://www.elmundo.es/')
+    //     cy.url().should('https://www.elmundo.es/') // Comando y asserción
 
     //     cy.url().should('include', 'tecnologia')
     // })
@@ -130,7 +132,9 @@ describe('Mis primeros test', () => { // Mocha
             .should('have.value', 'everis@everis.com')
     })
 
-    it('Añadiendo Javascript', () => {
+    it('Añadiendo Javascript && viewport', () => {
+
+        cy.viewport(400, 400)
 
         cy.visit('https://as.com/')
 
@@ -220,3 +224,4 @@ describe('Demostración promesas', () => {
     //         .should('include', '/my/resource/path#awesomeness')
     // })
 })
+
