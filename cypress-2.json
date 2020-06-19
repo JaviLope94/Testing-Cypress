@@ -1,0 +1,22 @@
+{
+    "baseUrl": "https://marca.com",
+    "env": {
+        "USER_GLOBAL": "1918119",
+        "PASS_GLOBAL": "1234",
+        "USER_SMSLOGIN": "4210374",
+        "PASS_SMSLOGIN": "2020",
+        "USER_INVESMENTS": "4210374",
+        "PASS_INVESMENTS": "2020",
+        "USER_INSURANCES": "1462870",
+        "PASS_INSURANCES": "2500",
+        "MOCK": false,
+        "ENTORNO": "bm",
+        "TEST": "https://teleint.bancamarch.es/bancaonlinemod/#",
+        "LOCAL": "http://localhost:4200/#"
+    },
+    "requestTimeout": 80000,
+    "responseTimeout": 80000,
+    "trashAssetsBeforeRuns": false,
+    "chromeWebSecurity": false,
+    "projectId": "grace-front"
+}
