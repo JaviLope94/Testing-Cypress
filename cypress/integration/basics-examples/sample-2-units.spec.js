@@ -25,7 +25,7 @@ describe('Unit test match', () => { // describe y context es lo mismo
 
         it('Restar numeros', () => {
             expect(subtract(5, 12)).to.eq(-7) // TDD
-            assert.equal(subtract(5, 12), -7, 'coincide') /BDD
+            assert.equal(subtract(5, 12), -7, 'coincide')
 
             // https://docs.cypress.io/guides/references/assertions.html#Chai
         })
